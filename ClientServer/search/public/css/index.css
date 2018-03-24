@@ -1,0 +1,75 @@
+section#main-content {
+    width: 500px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 50px;
+    background-color: #E0E0E0;
+}
+
+input, #search-title, #form-title, div {
+    font-family: monospace;
+    font-weight: normal;
+}
+
+#search-title {
+    font-weight: bold;
+}
+
+h3 {
+    font-family: monospace;
+}
+
+button, input, textarea {
+    border-radius: 7px;
+    border: 1px solid gray;
+    padding: 3px 7px;
+    font-family: monospace;
+}
+
+textarea {
+    padding: 5px;
+}
+
+div#word-placeholder {
+    text-decoration: underline;
+    margin-bottom: 5px;
+}
+
+#suggestion-container ul {
+    margin: 0;
+    list-style: none;
+    background-color: #9e9e9e6e;
+    width: 154px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+a.search-anchor {
+    text-decoration: none;
+}
+
+span#auth-div {
+    margin-left: 43%;
+}
+
+div#home-div {
+    margin-left: 90%;
+}
+
+button {
+    cursor: pointer;
+}
+
+div#edit-div {
+    margin-top: 15px;
+}
+
+#user-title {
+    font-style: italic;
+    font-family: monospace;
+}
+
+#auth-error {
+    color: red;
+}
